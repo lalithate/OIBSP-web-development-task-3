@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 70px;
+    font-family: "Source Serif Pro";
+    font-size: 40px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrapper{
+    background-color: #07f5f5;
+    width:500px;
+    position: absolute;
+    padding: 50px;
+    left:30%;
+    top:30%;
+    box-shadow: 0 15px 15px rgb(128, 128, 128);
+}
+.submit{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    left: 40%;
+}
+.submit:hover{
+    background-color: rgb(124, 124, 124);
+    color: rgb(255, 255, 255);
+}
+.input{
+    outline:none;
+    padding: 5px;
+}
+select{
+    outline: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+.output{
+    color:rgb(228, 228, 228);
+}
